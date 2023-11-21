@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "CreateToken",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_NAME",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_SYMBOL",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_supply",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_txFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_lpFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_MAXAMOUNT",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SELLMAXAMOUNT",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "routerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenOwner",
+						"type": "address"
+					}
+				],
+				"name": "createToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tokens",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenFactory.sol": "TokenFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Token.sol": {
+			"keccak256": "0xb492aa1028c2f8b059f15ad152fdd5dc949ce55db5732fe8c204edb331e972c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77700c39404d3518d80334be3e4928c28da2d35e88aceac46e8a8cf59049d370",
+				"dweb:/ipfs/QmRAXrwB9uoaSrPifq99uXvH6UmoSBoD2WoB8uTi8tgb4t"
+			]
+		},
+		"contracts/TokenFactory.sol": {
+			"keccak256": "0xcd15a92c515fc1b06c00f191e12dd38f9beb7fe2a5858eb9dac48d89f9cccd7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://723e0caa46e290ae84bafeb58f87ea005ec570162b4d407485f2d6506e7d8a26",
+				"dweb:/ipfs/Qman16zCWdqWDtD4PqjdD2JhFEjLLKXsP2N5RDA8gxmXcn"
+			]
+		}
+	},
+	"version": 1
+}
